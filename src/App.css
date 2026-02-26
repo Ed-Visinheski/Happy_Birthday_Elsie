@@ -18,8 +18,8 @@
   background: linear-gradient(135deg, #9f1717 0%, #800101 100%);
 }
 
-.blue-section {
-  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+.orange-section {
+  background: linear-gradient(135deg, #c94040 0%, #ee6347 100%);
 }
 
 .heart-container {
@@ -258,13 +258,13 @@
   .cat-2 {
     width: 80px;
     top: 40%;
-    right: 25%;
+    right: 22%;
   }
   
   .cat-3 {
     width: 187px;
     top: 31%;
-    right: 55.5%;
+    right: 57%;
   }
   
   .title {

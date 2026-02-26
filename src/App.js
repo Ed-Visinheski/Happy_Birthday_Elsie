@@ -45,7 +45,7 @@ function App() {
           <img src={blackCat3} alt="Black Cat" className="black-cat cat-3" />
         </div>
       </div>  
-      <div className="section blue-section" ref={blueSectionRef}>
+      <div className="section orange-section" ref={blueSectionRef}>
       
           <video 
             className="cheeze-video"
