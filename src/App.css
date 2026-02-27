@@ -22,6 +22,37 @@
   background: linear-gradient(135deg, #c94040 0%, #ee6347 100%);
 }
 
+.yellow-section {
+  background: linear-gradient(135deg, #ee6347 0%, #d37b07  100%);
+}
+
+.green-section {
+  background: linear-gradient(135deg, #d27400 0%, #c6a500  100%);
+}
+
+.slideshow-container {
+  width: 90vw;
+  max-width: 800px;
+  height: 80vh;
+  max-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.slideshow-image,
+.slideshow-video {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* animation: fadeIn 0.5s ease-in; */
+}
+
 .heart-container {
   position: relative;
   display: inline-block;
@@ -92,6 +123,52 @@
 .birthday-container {
   position: relative;
   z-index: 1;
+}
+
+.newspaper-container {
+  background: rgba(255, 223, 178, 0.95);
+  border-radius: 20px;
+  padding: 50px 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  max-width: 900px;
+  margin: 20px;
+}
+
+.newspaper-title {
+  font-size: 2.5em;
+  color: #d37b07;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  border-bottom: 3px solid #d37b07;
+  padding-bottom: 20px;
+}
+
+.newspaper-columns {
+  column-count: 1;
+  column-gap: 40px;
+  column-rule: 2px solid #d37b07;
+  text-align: justify;
+}
+
+.typewriter-text {
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.8;
+  font-family: 'Courier New', monospace;
+  overflow: hidden;
+  white-space: normal;
+  animation: typewriter 8s steps(40) 0.5s forwards;
+  opacity: 0;
+}
+
+@keyframes typewriter {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .content {
@@ -286,5 +363,30 @@
   .cheeze-video {
     width: 90%;
     max-width: 350px;
+  }
+  
+  .newspaper-container {
+    padding: 30px 20px;
+    margin: 20px 10px;
+  }
+  
+  .newspaper-title {
+    font-size: 1.8em;
+  }
+  
+  .newspaper-columns {
+    column-count: 1;
+    column-gap: 0;
+    column-rule: none;
+  }
+  
+  .typewriter-text {
+    font-size: 1em;
+  }
+  
+  .slideshow-container {
+    width: 95vw;
+    height: 70vh;
+    max-height: 500px;
   }
 }
